@@ -1,0 +1,49 @@
+HTML Atribut
+Pada tulisan sebelumnya saya sedikit membahas tentang atribut, namun saya belum menjelaskan secara detail mengenai apa itu atribut. Nah untuk mengetahui apa itu atribut, pada tulisan kali saya akan membahasnya.
+Atribut pada html sendiri merupakan kata khusus yang letaknya terdapat didalam tag pembuka, dan disebut sebagai modifier yang akan menentukan perilaku dari elemen(merupakan bagian didalam body, dan berupa tag dan isi tag).
+Contoh atribut seperti ini <img src='belajarHtml.png' width='100%' height='100%' />
+Pada contoh diatas dapat dilihat saya menuliskan lebih dari satu atribut, hal ini dikarenakan atribut dapat ditulis lebih dari satu kali pada satu tag pembuka.
+Terdapat berbagai jenis atribut pada HTML, diantaranya :
+1. Atribut Global
+Merupakan atribut yang dapat ditambahkan pada semua elemen HTML, terdiri dari :
+a. accesskey : menentukan tombol shortcut untuk mengaktifkan atau fokus pada elemen
+b. class : menentukan class CSS yang akan digunakan
+c. contenteditable : menentukan isi elemen dapat diedit atau tidak
+d. data-* : untuk menyimpan data
+e. dir : menentukan arah teks dari elemen
+f. draggable : menentukan teks dapat di drag atau tidak
+g. hidden : untuk menyembunyikan elemen
+h. id : menentukan id untuk elemen
+i. lang : menentukan bahasa yang digunakan untuk elemen
+j. spellcheck : menentukan apakah elemen harus dilakukan pengejaan grammer atau tidak
+k. style : menentukan inline CSS untuk elemen
+l. tabindex : menentukan urutan indeks tab dari elemen (saat tombol tab diklick)
+m. title : menentukan informasi tambahan tentang elemen
+n. translate : menentukan konten dapat diterjemahkan atau tidak
+
+2. Atribut Event
+Merupakan atribut yang digunakan untuk menentukan aksi yang akan dilakukan saat elemen terjadi sesuatu, terdiri dari :
+a. onafterprint : dijalankan setelah dokumen dicetak
+b. onbeforeprint : dijalankan sebelum dokumen dicetak
+c. onbeforeunload : dijalankan sebelum saat dokumen tidak ter-load
+d. onerror : dijalankan saat terjadi error
+e. onhashchange : dijalankan saat terjaddi perubahan pada bagian anchor di URL
+f. onload : dijalankan setelah loading selesai
+g. onmessage : dijalankan saat ada penjelasan
+h. onoffline : dijalankan saat web menjadi offline
+i. ononline : dijalankan saat web kembali online
+j. onpagehide : dijalankan saat user tidak sedang membuka halaman web
+k. onpageshow : dijalankan saat user membuka kembali halaman web
+l. onpopstate : dijalankan saat history browser berubah
+m. onresize : dijalankan saat ukuran jendala browser berubah
+n. onstorage : dijalankan saat web storage di update
+o. onunload : dijalankan saat web browser ditutup
+
+3. Atribut Khusus
+Merupakan atribut yang hanya dapat dipakai pada elemen terntentu, terdiri dari :
+a. src : hanya dapat dipakai pada tag <audio>, <embed>, <iframe>, <img>
+b. href : hanya dapat dipakai pada tag <a>, <link>
+c. action : hanya dapat dipakai pada tag <form>
+d. autoplay : hanya dapat dipakai pada tag <audio>, <video>
+
+Untuk materi atribut cukup samapi disini, untuk bagian selanjutnya kita akan membahas table pada html

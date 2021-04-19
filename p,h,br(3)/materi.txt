@@ -1,0 +1,18 @@
+Tag P, H, B, Strong, Br
+Oke, sesuai janji saya pada tulisan saya sebelumnya, pada tulisan kali ini saya membahas mengenai tag p, h, b, strong dan br.
+Sebelumnya mari kita pahami kegunaan dari masing-masing tag, 
+1. Tag p(<p>) merupakan paragrapht, pada bagian ini setiap tulisan kita akan muncul sebagai bentuk paragrapht, mirip seperti kita menulis pada ms word
+2. Tag h(<h>) merupakan heading, pada bagian ini setiap tulisan kita akan muncul dengan bentuk huruf tebal dan ukurannya lebih besar dibandingkan tulisan pada tag p, tag h sendiri dimulai dari <h1>(terbesar) hingga <h6>(terkecil)
+3. Lalu berikutnya ada tag b(<b>) dan strong(<strong>), mungkin kalian bingung kenapa bagian ini saya gabung menjadi satu. Sebenarnya untuk tag b dan strong memiliki kemiripan, yaitu memberikan penekatan pada saat kita menulis, sehingga tulisan yang dimunculkan akan menjadi lebih tebal
+4. Nah yang terakhir adalah br(<br>), br sendiri merupakan tag yang membuat kita dapat menambahkan baris baru, tag ini mirip seperti fitur enter pada saat kita menggunakan ms word
+Mari kita coba praktek masing-masing tag diatas, silahkan tulis code berikut :
+<!--code 1.html-->
+setelah dijalankan maka akan menghasilkan tampilan seperti ini :
+<!--gambar 1.png-->
+Dapat dilihat perbedaan antara spasi yang menggunakan tag br dan tidak, serta dapat dilihat juga perbedaantag mulai dari h1 sampai h6.
+Lalu gimana dengan tag h, apakah bisa diberikan tag b ataupun strong didalamnya ?
+Guna menjawab, lebih baik kita langsung saja mencobanya,
+<!--code 2.html-->
+<!--gambar 2.png-->
+Bisa dilihat kalau tag b maupun strong tidak berpengaruh saat dituliskan dalam tag h1-h6, hal ini dikarenakan sifat dari tag h yang sudah memiliki fungsi penebalan kata itu sendiri.
+Untuk bagian selanjutnya kita akan mempelajari caranya memasukkan file gambar kedalam code html kita.

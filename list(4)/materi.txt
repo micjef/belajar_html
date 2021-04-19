@@ -1,0 +1,48 @@
+HTML List
+Menulis pada html selayaknya menulis pada microsoft word maupun yang lainnya, yaitu dapat membuat list didalamnya. Lalu bagaimana cara untuk membuat list pada html ?
+<!-- 1.html -->
+Apabila kita menuliskan seperti diatas, maka akan menghasilkan tampilan seperti ini
+<!-- 1.png -->
+Pada gambar diatas memang dapat dilihat bawa kode html diatas dapat memunculkan list, namun pembuatan list pada html sesunguhnya tidak dilakukan dengan cara tersebut. Untuk itu mari kita memahami element list pada html.
+Pada html sudah tersedia beberapa cara untuk membuat list : 
+
+1. Ordered List (<ol>)
+Digunakan untuk membuat list yang terurut. Untuk membuat ordered list dapat dilakukan dengan cara berikut :
+<!-- ol.html -->
+Pada kode diatas terdapat 2 tag baru yang kita pelajari yaitu tag <ol> dan <li>. tag <ol> merupakan tag untuk membuat ordered list dan tag <li> untuk membuat list item.
+<!-- ol.png -->
+Angka list yang muncul pada list juga dapat diganti dengan huruf maupun angka romawi, lalu bagimana caranya ?
+Untuk menganti angka yang muncul pada list dapat dilakukan dengan menambahkan atribut type pad tag <ol> 
+a. Untuk mengubah menjadi huruf kecil dapat menggunakan atribut a
+b. Untuk mengubah menjadi huruf besar dapat menggunakan atribut A
+c. Untuk mengubah menjadi angka romawi kecil dapat menggunakan atribut i
+d. Untuk mengubah menjadi angka romawi besar dapat menggunakan atribut I
+<!-- ol(type).html -->
+<!-- ol(type).png -->
+
+2. Unordered List (<ul>)
+Digunakan untuk membuat list yang tidak berurut. Untuk membuat unordered list dapat dilakukan dengan cara berikut : 
+<!-- ul.html -->
+Pada kode diatas terdapat tag baru yang kita pelajari yaitu tag <ul>. Tag <ul> merupakan tag untuk membuat unordered list.
+<!-- ul.png -->
+Dikarenakan sifatnya yang tidak berurut, maka penanda pasa list tidak berupa angka maupun nomor, melainkan berupa titik hitam, namun titik hitam itu juga dapat kita ganti dengan tanda model lain dengan cara yang sama dengan ordered list : 
+a. Untuk mengubah menjadi simbol persegi dapat menggunakan atribut square
+b. Untuk mengubah menjadi simbol lingkaran dapat menggunakan atribut circle
+c. Untuk mengubah menjadi simbol lingkaran dics (default) dapat menggunakan atribut dics
+d. Untuk menghilangkan simbol dapat menggunakan atribut none
+<!-- ul(type).html -->
+<!-- ul(type).png -->
+
+3. Description List (<dl>, <dt>, <dd>)
+Digunakan untuk membuat list yang berisi deskripsi. Untuk membuat description list dapat dilakukan dengan cara berikut : 
+<!-- dl.html -->
+Pada kode diatas terdapat 3 tag baru yang kita pelajari yaitu tag <dl>, <dt>, <dd>. Tag <dl> (description list) merupakan tag untuk memulai description list, tag <dt> (description term) untuk membuat kata yang dideskripsikan, tag <dd> (description description) untuk membuat penjelasan dari kata.
+<!-- dl.png -->
+Description list berbeda dengan list yang lainnya, yaitu tidak dapat memberikan angka, huruf maupun simbol didepannya.
+
+4. Nested List (List di dalam list)
+Kita dapat membuat list didalam list, maksudnya seperti kita membuat ul didalam ol :
+<!-- nested.html -->
+<!-- nested.png -->
+
+Untuk materi list cukup sampai sini, untuk selanjutnya kita akan membahas mengenai atribut pada html

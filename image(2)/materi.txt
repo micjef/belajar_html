@@ -1,0 +1,10 @@
+Image
+Pada html kita tidak hanya bisa menampilkan tulisan, tapi kita juga dapat menampilkan gambar. Jangan pusing dulu karena sebenarnya gak sulit kok buat menampilkan gambar, gambar dapat ditampilkan menggunakan tag <img src="" alt="" />
+Mari kita bahas, pada tag img diatas, bagian src berfungsi untuk memasukkan file gambar, sedangkan alt berfungsi sebagai penamaan dari file gambar.
+<!--code 1.html-->
+Hasilnya seperti berikut :
+<!--gambar 1.png-->
+Saat kita memasukkan file gambar, jangan lupa untuk menuliskan ekstensi dari gambarnya, kalau file gambar bertipe png maka tulis (nama gambar).png, apabila bertipe jpg maka tulis (nama gambar).jpg, dan jangan lupa untuk letak dari file gambar, apabila file gambar ada di dalam folder, maka tulis ./(nama folder)/(nama gambar).(ekstensi), namun bila file gambar berada dalam 1 folder cukup tulis ./(nama gambar).(ekstensi) .
+Alt berfungsi untuk memberikan nama gambar, hal ini bertujuan untuk dapat meload ulang apabila mengalami gangguan koneksi, seperti berikut :
+<!--gambar 2.png-->
+Cukup sekian untuk tulisan kali ini, untuk berikutnya saya akan membahas tentang list

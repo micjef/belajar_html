@@ -1,0 +1,8 @@
+Tag Body HTML
+Nah kita kan sudah membahas pengenalan html, lalu membahas bagian head dan tag meta pada bagian head. Kalau begitu mulai part ini kita akan membahas tag body, pada tag inilah semua bagian yang akan dimunculkan pada website ditulis, termasuk tempat dimana kita menenmpatkan tag script.
+Biar kita gak bingung mending langsung aja buka code editor teman-teman, kalau semisal masih belum memasang, bisa menggunakan notepad, tapi saya sarankan untuk menggunakan code editor supaya lebih nyaman dalam menuliskan codenya.
+Silahkan ditulis code html berikut :
+<!--code 1.html-->
+Apabila code tersebut kita buka pada web browser kita, maka akan muncul kalimat seperti ini
+<!--gambar 1.png-->
+Kita dapat mengganti isi dalam tag p menjadi tulisan yang kita inginkan, tag p itu artinya paragrapht, buat memahami lebih lanjut bisa baca tulisan saya selanjutnya, karna pada tulisan saya selanjutnya saya akan membahas mengenai tag p, h, br.
